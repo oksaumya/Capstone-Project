@@ -1,0 +1,165 @@
+.container {
+    padding: 0 48px;
+}
+header {
+    padding-top:32px ;
+}
+nav {
+    width: 70%;
+    background-color: #CC0B0B0F;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    border: 1.5px;
+    padding: 32px 48px;
+    margin-left: 140px;
+}
+.home_parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.home_sib {
+    font-family: 'Source Serif 4';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.data {
+    /* font-family: 'Hepta Slab'; */
+    font-size: 35px;
+    font-weight: 800;
+    color: #000000;
+}    
+.body {
+    padding: 80px;
+    gap: 32px;
+}
+.body_child1 {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.explore {
+    font-family: 'Libre Franklin';
+    font-size: 120px;
+    text-align: center;
+    font-weight: 800;
+}
+.img1 {
+    max-width: 1344px;
+    width: 100%;
+    min-height: 278px;
+    /* height: auto; */
+    border: 1.5px;
+}
+.body_child2 {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.img_div {
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 25px;
+}
+.imgs {
+    width: 403px;
+    height: 270px;
+    border-radius: 4px;
+    border: 1.5px;
+}
+.img_des {
+    font-family: 'Source Serif 4';
+    font-size: 20px;
+    font-weight: 400
+}
+.img_sub {
+    font-family: 'Source Serif 4';
+    font-size: 17px;
+    font-weight: 400;
+    color: #00000099;
+}
+.body_child3 {
+    padding: 42px 0;
+    gap: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.impact {
+    font-family: 'Libre Franklin';
+    font-weight: 800;
+    font-size: 28px;
+
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 651px;
+    height: 320px;
+    gap: 20px;
+}
+.info_box {
+    width: 300px;
+    height: 50px;
+    gap: 25px;
+}
+.info_des {
+    font-family: 'Libre Franklin';
+    font-weight: 800;
+    font-size: 48px;
+    border-top: 1px solid #00000029;
+
+}
+.info_sub {
+    font-family: 'Source Serif 4';
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.body_child4 {
+    padding: 96px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bio {
+    height: 312px;
+    width: 900px;
+    font-family: 'Libre Franklin';
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+footer {
+    padding-top:96px ;
+    padding-bottom: 32px;
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mark {
+    gap: 40px;
+    font-family: 'Libre Franklin';
+    font-weight: 500;
+    font-size: 28px;
+
+}
+.contact {
+    border-radius:4px ;
+    border: 1.5px solid #00000029;
+    padding: 10px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
