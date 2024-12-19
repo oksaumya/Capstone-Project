@@ -59,7 +59,7 @@ nav {
 
 .explore {
     font-family: 'Libre Franklin';
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 800;
 }
 
@@ -190,7 +190,7 @@ footer {
 
 @media (max-width: 768px) {
     .explore {
-        font-size: 32px;
+        font-size: 40px;
     }
     .img1 {
         /* margin-left: 40px; */
@@ -257,7 +257,7 @@ footer {
 
 @media (max-width: 768px) {
     .explore {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     .img1 {
@@ -321,6 +321,90 @@ footer {
         font-size: 14px;
     }
 }
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.home_sib, .data {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.home_sib:hover, .data:hover {
+    color: #CC0000;
+    transform: scale(1.1);
+}
+
+
+.imgs {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.imgs:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.explore {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.info_box {
+    animation: popIn 0.6s ease-in-out;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.info_box:hover {
+    transform: scale(1.05);
+    background-color: #f9f9f9;
+}
+
+
+.bio {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #00000029;
+    transform: scale(1.1);
+}
+
 
 
 
